@@ -44,6 +44,7 @@ h2 {
 
 .hero h2 {
   font-weight: bolder;
+  font-family: var(--main-font);
 }
 
 .hero {
