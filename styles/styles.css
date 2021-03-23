@@ -34,6 +34,14 @@ img {
   padding: 10px 10px;
 }
 
+p {
+  padding: 10px 35px;
+  margin: 10px 10px;
+}
+h2 {
+  font-family: var(--heading-font);
+}
+
 .hero h2 {
   font-weight: bolder;
 }
@@ -60,6 +68,20 @@ img {
 
 .commButton:hover {
   background-color: var(--secondary-color) !important;
+  color: black;
+}
+
+.commLightButton {
+  color: black;
+  background-color: var(--secondary-color);
+  padding: 20px 15px;
+  font-family: var(--main-font);
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.commLightButton:hover {
+  background-color: #fff !important;
   color: black;
 }
 
@@ -112,6 +134,7 @@ img {
 
 .curvedComm {
   background-color: var(--primary-color);
+  color: #fff;
 }
 
 .upperCurvedComm {
