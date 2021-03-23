@@ -147,3 +147,15 @@ h2 {
   text-align: center;
   padding: 10px 10px;
 }
+
+.carousel-item p {
+  color: black;
+
+  background-color: var(--secondary-color);
+}
+
+.carousel-item h5 {
+  color: black;
+  font-family: var(--heading-font);
+  background-color: var(--secondary-color);
+}
