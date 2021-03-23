@@ -16,12 +16,22 @@
 
 body {
   font-family: var(--main-font);
+  margin: 0;
+  background-color: #fff;
+  padding: 0;
 }
 
 h1 {
   font-family: var(--heading-font);
   font-size: 90px;
   color: var(--secondary-color);
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px 10px;
 }
 
 .hero h2 {
@@ -34,9 +44,12 @@ h1 {
   color: var(--secondary-color);
   text-align: center;
   padding: 160px 0;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
 }
 
-.etsyButton {
+.commButton {
   color: white;
   background-color: var(--primary-color) !important;
   padding: 20px 15px;
@@ -45,7 +58,68 @@ h1 {
   line-height: 27px;
 }
 
-.etsyButton:hover {
+.commButton:hover {
   background-color: var(--secondary-color) !important;
   color: black;
+}
+
+.curved svg {
+  display: block;
+  background-color: var(--secondary-color);
+}
+
+.curved {
+  background-color: var(--secondary-color);
+}
+
+.upperCurved {
+  background-color: #fff;
+  margin: 0;
+}
+
+.curvedProducts svg {
+  display: block;
+  background-color: #7389ae;
+}
+
+.curvedProducts {
+  background-color: #7389ae;
+}
+
+.upperCurvedProducts {
+  background-color: #fff;
+  margin: 0;
+}
+
+.curvedSketch svg {
+  display: block;
+  background-color: #81b784;
+}
+
+.curvedSketch {
+  background-color: #81b784;
+}
+
+.upperCurvedSketch {
+  background-color: #fff;
+  margin: 0;
+}
+
+.curvedComm svg {
+  display: block;
+  background-color: var(--primary-color);
+}
+
+.curvedComm {
+  background-color: var(--primary-color);
+}
+
+.upperCurvedComm {
+  background-color: #fff;
+  margin: 0;
+}
+
+.col-sm-6 {
+  text-align: center;
+  padding: 10px 10px;
 }
